@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tops on EvanZhao</title>
+    <link>http://boredcat.github.io/top/</link>
+    <description>Recent content in Tops on EvanZhao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://boredcat.github.io/top/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://boredcat.github.io/top/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://boredcat.github.io/top/about/</guid>
+      <description>Evan Zhao is an software developer,His favorite programming languages are Python and Java. Golang is the programming language he wants to learn now.
+Throughout his career, he has built a number of&amp;hellip; oh, wait, his career has just begun, then let&amp;rsquo;s skip this paragraph.
+He loves open source and has been contributing to a variety of open source projects, including MIT App Inventor(a web for build app), nbgrader(a system for assigning and grading notebooks), jupyterhub(multi-user server for Jupyter notebooks ), etc</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://boredcat.github.io/top/books/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://boredcat.github.io/top/books/</guid>
+      <description>Machine learning学习笔记 Coursera 在线课程 Machine learning 笔记 讲师: 吴恩达(Andrew Ng)  课程地址：https://www.coursera.org/learn/machine-learning</description>
+    </item>
+    
+  </channel>
+</rss>
