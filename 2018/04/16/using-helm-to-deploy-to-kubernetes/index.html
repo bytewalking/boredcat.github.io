@@ -10,8 +10,8 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="http://boredcat.github.io//img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="http://boredcat.github.io//img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://zhaopenghui.com/img/home-bg-jeep.jpg">
+    <meta property="twitter:image" content="https://zhaopenghui.com/img/home-bg-jeep.jpg" />
     
 
     
@@ -590,7 +590,7 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
 <strong>A</strong>: 这位朋友应该是把chart的version和Release的reversion搞混了，呵呵。 Chart是没有reversion的，Chart部署的一个实例（Release）才有Reversion，Reversion是Release被更新后自动生成的。</p>
 
 <p><strong>Q</strong>: 没有看到helm指向k8s的配置，怎么确认在哪个K8s集群运行的？<BR>
-<strong>A</strong>: 使用和kubectl相同的配置，在  ~/.kube/config 中。</p>
+<strong>A</strong>: 使用和kubectl相同的配置，在<code>~/.kube/config</code>中。</p>
 
 <p><strong>Q</strong>: 这个简单例子并没有看出 Helm 相比 kubectl 有哪些优势，可以简要说一下吗？<BR>
 <strong>A</strong>： Helm将kubernetes应用作为一个软件包整体管理，例如一个应用可能有前端服务器，后端服务器，数据库，这样会涉及多个Kubernetes 部署配置文件，Helm就整体管理了。另外Helm还提供了软件包版本，一键安装，升级，回退。Kubectl和Helm就好比你手工下载安装一个应用 和 使用apt-get 安装一个应用的区别。</p>
@@ -613,7 +613,7 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
                 
 <div class="entry-shang text-center">
     
-	    <p>「真诚赞赏，手留余香」</p>
+	    <p> 「如果这篇文章对你有用,请随意打赏」</p>
 	
 	<button class="zs show-zs btn btn-bred">赞赏支持</button>
 </div>
@@ -621,9 +621,9 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
 <div class="zs-modal-box">
 	<div class="zs-modal-head">
 		<button type="button" class="close">×</button>
-		<span class="author"><a href="http://boredcat.github.io/"><img src="/img/favicon.png" />EvanZhao</a></span>
+		<span class="author"><a href="https://zhaopenghui.com"><img src="/img/favicon.png" />EvanZhao</a></span>
         
-	        <p class="tip"><i></i><span>真诚赞赏，手留余香</span></p>
+	        <p class="tip"><i></i><span>如果这篇文章对你有用,请随意打赏</span></p>
 		
  
 	</div>
@@ -661,7 +661,7 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
                     
                     
                     <li class="next">
-                        <a href="/2018/05/01/may-day-jiulonghu" data-toggle="tooltip" data-placement="top" title="川西秘境探险">Next
+                        <a href="/2018/05/23/istio-auto-injection-with-webhook/" data-toggle="tooltip" data-placement="top" title="Istio Sidecar自动注入原理">Next
                             Post &rarr;</a>
                     </li>
                     
@@ -730,11 +730,15 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
                         
                         
                         
-                        <a href="/tags/tips" title="tips">
-                            tips
+                        <a href="/tags/think-deeply" title="think-deeply">
+                            think-deeply
                         </a>
                         
                         
+                        
+                        <a href="/tags/tips" title="tips">
+                            tips
+                        </a>
                         
                         
                         
@@ -746,6 +750,16 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
                 
 
                 
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                        <li><a target="_blank" href="https://00kai0.github.io/">Kerwin Sun&#39;s Blog</a></li>
+                        
+                    </ul>
+                </section>
                 
             </div>
         </div>
@@ -814,7 +828,12 @@ testapi 3               Mon Apr 16 10:48:20 2018        DEPLOYED        testapi-
 		<p class="copyright text-muted">
                     Copyright &copy; EvanZhao 2019
                     <br>
-                    This site was created by  <a href="https://github.com/boredcat">EvanZhao</a> | Deployed on github
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
                 </p>
             </div>
         </div>
