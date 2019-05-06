@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on EvanZhao</title>
-    <link>https://zhaopenghui.com/categories/</link>
+    <link>https://www.helloevanzhao.me/categories/</link>
     <description>Recent content in Categories on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zhaopenghui.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.helloevanzhao.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tips</title>
-      <link>https://zhaopenghui.com/categories/tips/</link>
+      <link>https://www.helloevanzhao.me/categories/tips/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhaopenghui.com/categories/tips/</guid>
+      <guid>https://www.helloevanzhao.me/categories/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://zhaopenghui.com/categories/life/</link>
+      <link>https://www.helloevanzhao.me/categories/life/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://zhaopenghui.com/categories/life/</guid>
+      <guid>https://www.helloevanzhao.me/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://zhaopenghui.com/categories/tech/</link>
+      <link>https://www.helloevanzhao.me/categories/tech/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zhaopenghui.com/categories/tech/</guid>
+      <guid>https://www.helloevanzhao.me/categories/tech/</guid>
       <description></description>
     </item>
     
