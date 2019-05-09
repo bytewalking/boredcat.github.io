@@ -6,10 +6,28 @@
     <description>Recent content in Tech on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>如何搭建这个网站</title>
+      <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>单点登录的原理和实现</title>
+      <link>https://www.helloevanzhao.me/post/2019-05-08-single-sign-on-design-and-implementation/</link>
+      <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-05-08-single-sign-on-design-and-implementation/</guid>
+      <description>单系统登录机制 http无状态协议 Web应用一般都是采用browser/server架构，使用http作为通信协议。http是无状态协议，浏览</description>
+    </item>
     
     <item>
       <title>Istio v1aplha3 routing API介绍(译文）</title>
