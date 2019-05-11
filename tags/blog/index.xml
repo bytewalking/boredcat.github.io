@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>How to Build a Personal Blog Site</title>
+      <title>How To Build A Personal Blog Site</title>
       <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
@@ -24,7 +24,7 @@ choco install hugo -confirm  Use the installation instructions in the Hugo docum
     </item>
     
     <item>
-      <title>How to Build a Personal Blog Site(中文版)</title>
+      <title>How To Build A Personal Blog Site(中文版)</title>
       <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine-chinese/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
