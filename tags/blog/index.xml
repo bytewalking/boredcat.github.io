@@ -12,12 +12,24 @@
     
     
     <item>
-      <title>如何搭建这个网站</title>
+      <title>How to Build a Personal Blog Site</title>
       <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</guid>
-      <description>咕咕咕</description>
+      <description>Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.
+How to Install Install Hugo as Your Site Generator (Binary Install) Homebrew (macOS)
+brew install hugo  Chocolatey (Windows)
+choco install hugo -confirm  Use the installation instructions in the Hugo documentation</description>
+    </item>
+    
+    <item>
+      <title>How to Build a Personal Blog Site(中文版)</title>
+      <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine-chinese/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine-chinese/</guid>
+      <description>Hugo 是一款使用Go语言编写的静态语言生成器。它对构建速度，易用性和可配置性等方面进行了优化。Hugo的目录内包含content和templat</description>
     </item>
     
   </channel>
