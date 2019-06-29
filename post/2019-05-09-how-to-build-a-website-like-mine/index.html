@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="如何搭建这个网站" />
-    <meta property="og:title" content="如何搭建这个网站" />
-    <meta property="twitter:title" content="如何搭建这个网站" />
+    <meta name="title" content="How To Build A Personal Blog Site" />
+    <meta property="og:title" content="How To Build A Personal Blog Site" />
+    <meta property="twitter:title" content="How To Build A Personal Blog Site" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="赵鹏辉, zhaopenghui, zhaopenghui, , 赵鹏辉的网络日志, 赵鹏辉的博客, zhaopenghui Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>如何搭建这个网站-Blog</title>
+    <title>How To Build A Personal Blog Site-Blog</title>
 
     <link rel="canonical" href="/post/2019-05-09-how-to-build-a-website-like-mine/">
 
@@ -177,8 +177,8 @@
                         </a>
                         
                     </div>
-                    <h1>如何搭建这个网站</h1>
-                    <h2 class="subheading">这篇教程将教会你如何搭建一个和我一样的网站，而且是完全免费的(仅针对学生)</h2>
+                    <h1>How To Build A Personal Blog Site</h1>
+                    <h2 class="subheading">This tutorial will teach you how to build a website like mine, and it&#39;s completely free.</h2>
                     <span class="meta">
 			Posted by 
 			
@@ -211,9 +211,191 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
+                <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#how-to-install">How to Install</a>
+<ul>
+<li><a href="#install-hugo-as-your-site-generator-binary-install">Install Hugo as Your Site Generator (Binary Install)</a></li>
+<li><a href="#build-and-install-the-binaries-from-source-advanced-install">Build and Install the Binaries from Source (Advanced Install)</a></li>
+</ul></li>
+<li><a href="#installation-theme">Installation theme</a>
+<ul>
+<li><a href="#configuration">Configuration</a></li>
+<li><a href="#comments">Comments</a></li>
+<li><a href="#disqus-in-china">Disqus in China</a></li>
+<li><a href="#site-search-with-algolia">Site Search with Algolia</a></li>
+<li><a href="#analytics">Analytics</a></li>
+<li><a href="#wechat-pay-alipay-rewards">Wechat Pay &amp; Alipay Rewards</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#how-to-create-a-new-article">How to create a new article</a></li>
+</ul>
+</nav>
                 
                 
-                <p>咕咕咕</p>
+
+<p><a href="https://github.com/gohugoio/hugo#fetch-from-github">Hugo</a> is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and configurability. Hugo takes a directory with content and templates and renders them into a full HTML website.</p>
+
+<h2 id="how-to-install">How to Install</h2>
+
+<h3 id="install-hugo-as-your-site-generator-binary-install">Install Hugo as Your Site Generator (Binary Install)</h3>
+
+<p><strong>Homebrew (macOS)</strong></p>
+
+<pre><code>brew install hugo
+</code></pre>
+
+<p><strong>Chocolatey (Windows)</strong></p>
+
+<pre><code>choco install hugo -confirm
+</code></pre>
+
+<p>Use the installation instructions in the <a href="https://gohugo.io/getting-started/installing/">Hugo documentation</a></p>
+
+<h3 id="build-and-install-the-binaries-from-source-advanced-install">Build and Install the Binaries from Source (Advanced Install)</h3>
+
+<p>Prerequisite Tools:</p>
+
+<ul>
+<li><a href="https://git-scm.com/">Git</a></li>
+<li><a href="https://golang.org/dl/">GO(at least Go 1.11)</a></li>
+</ul>
+
+<p><strong>Fetch from GitHub</strong></p>
+
+<p>Since Hugo 0.48, Hugo uses the Go Modules support built into Go 1.11 to build. The easiest is to clone Hugo in a directory outside of GOPATH, as in the following example:</p>
+
+<pre><code>mkdir $HOME/src
+cd $HOME/src
+git clone https://github.com/gohugoio/hugo.git
+cd hugo
+go install
+</code></pre>
+
+<p><strong>If you are a Windows user, substitute the <code>$HOME</code> environment variable above with <code>%USERPROFILE%</code>.</strong></p>
+
+<p>After the installation is complete, after entering the <code>hugo version</code> in the terminal, the <code>Hugo Static Site Generator v0.55.0-DEV linux/amd64 BuildDate: unknown</code> is displayed.</p>
+
+<h2 id="installation-theme">Installation theme</h2>
+
+<p>This website uses the theme &ldquo;hugo-theme-cleanwhite&rdquo;</p>
+
+<p>The simplest way is to start with the example site coming with this theme, then you can play around and add your own stuff.</p>
+
+<pre><code>$ mkdir test
+$ cd test
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
+$ cp -r hugo-theme-cleanwhite/exampleSite/** ../
+$ cd ..
+$ hugo serve
+</code></pre>
+
+<p>If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.</p>
+
+<pre><code>$ mkdir themes
+$ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite.git themes/hugo-theme-cleanwhite
+</code></pre>
+
+<p>Run Hugo Build-in Server Locally</p>
+
+<pre><code>$ hugo serve -t  hugo-theme-cleanwhite
+</code></pre>
+
+<p>Now enter localhost:1313 in the address bar of your browser.</p>
+
+<p>If you start from scratch, there is a working Hugo site configured with the CleanWhite theme in the exampleSite directory. You can use it as a starting point for your site.</p>
+
+<p>For more information read the official setup guide of Hugo</p>
+
+<h3 id="configuration">Configuration</h3>
+
+<p>First, let&rsquo;s take a look at the config.toml. It will be useful to learn how to customize your site. Feel free to play around with the settings.</p>
+
+<h3 id="comments">Comments</h3>
+
+<p>The optional comments system is powered by Disqus. If you want to enable comments, create an account in Disqus and write down your shortname.</p>
+
+<p>disqusShortname = &ldquo;your-disqus-short-name&rdquo;
+You can disable the comments system by leaving the disqusShortname empty.</p>
+
+<h3 id="disqus-in-china">Disqus in China</h3>
+
+<p>Use this feature requires scientific internet access.
+So you can&rsquo;t use this feature in China.</p>
+
+<h3 id="site-search-with-algolia">Site Search with Algolia</h3>
+
+<p>Follow this tutorial to create your index in Algolia. The index is just the storage of the indexing data of your site in the the cloud . The search page of CleanWhite theme will utilize this indexing data to do the search.</p>
+
+<p>Go to the directory where you have your Hugo site and run the following commands:</p>
+
+<pre><code>$ npm init
+$ npm install atomic-algolia --save
+</code></pre>
+
+<p>Next, open up the newly created package.json, where we’ll add an NPM script to update your index at Algolia. Find &ldquo;scripts&rdquo;, and add the following:</p>
+
+<pre><code>&quot;algolia&quot;: &quot;atomic-algolia&quot;
+</code></pre>
+
+<p>Algolia index output format has already been supported by the CleanWhite theme, so you can just build your site, then you’ll find a file called algolia.json in the root, which we can use to update your index in Algolia. Generate index file:</p>
+
+<pre><code>$ hugo
+</code></pre>
+
+<p>Create a new file in the root of your Hugo project called .env, and add the following contents:</p>
+
+<pre><code>ALGOLIA_APP_ID={{ YOUR_APP_ID }}
+ALGOLIA_ADMIN_KEY={{ YOUR_ADMIN_KEY }}
+ALGOLIA_INDEX_NAME={{ YOUR_INDEX_NAME }}
+ALGOLIA_INDEX_FILE={{ PATH/TO/algolia.json }}
+</code></pre>
+
+<p>Now you can push your index to Algolia by simply running:</p>
+
+<p>$ npm run algolia
+Add the following variables to your hugo site config so the search page can get access to algolia index data in the cloud:</p>
+
+<pre><code>algolia_search = true
+algolia_appId = {{ YOUR_APP_ID }}
+algolia_indexName = {{ YOUR_INDEX_NAME }}
+algolia_apiKey = {{ YOUR_ADMIN_KEY }}
+</code></pre>
+
+<p>Open search page in your browser: <a href="http://localhost:1313/search">http://localhost:1313/search</a></p>
+
+<h3 id="analytics">Analytics</h3>
+
+<p>You can optionally enable Google or Baidu Analytics. Type your tracking code in the</p>
+
+<pre><code>googleAnalytics = &quot;UA-XXXXX-X&quot;
+ba_track_id  = &quot;XXXXXXXXXXXXXXXX&quot;
+</code></pre>
+
+<p>Leave the googleAnalytics or &lsquo;ba_track_id &lsquo; key empty to disable it.</p>
+
+<h3 id="wechat-pay-alipay-rewards">Wechat Pay &amp; Alipay Rewards</h3>
+
+<p>You can enable Wechat Pay &amp; Alipay to allow readers send you money. So if they like your articles, you may even get rewards from your writing. Now you must be motivated to write more.</p>
+
+<ul>
+<li><p>Enable Wechat Pay &amp; Alipay in the site config</p>
+
+<p>reward = true</p></li>
+
+<li><p>Replace the QR codes of Wechat Pay &amp; Alipay by overriding the photos in folder /static/img/reward/, otherwise the money will be sent to my accounts!</p></li>
+</ul>
+
+<h1 id="how-to-create-a-new-article">How to create a new article</h1>
+
+<pre><code>#!/bin/bash
+time=$(date &quot;+%Y-%m-%d&quot;)
+hugo new post/${time}-$1.md
+</code></pre>
 
 
                 
@@ -262,7 +444,7 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/post/2019-05-08-single-sign-on-design-and-implementation/" data-toggle="tooltip" data-placement="top" title="单点登录的原理和实现">&larr;
+                        <a href="/post/2019-05-09-how-to-build-a-website-like-mine-chinese/" data-toggle="tooltip" data-placement="top" title="How To Build A Personal Blog Site(中文版)">&larr;
                             Previous Post</a>
                     </li>
                     
@@ -271,6 +453,27 @@
 
                 
 <div id="disqus-comment"></div>
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "EvanZhao" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
 
@@ -292,6 +495,10 @@
                         
                         
                         
+                        <a href="/tags/blog" title="blog">
+                            blog
+                        </a>
+                        
                         
                         
                         
@@ -301,6 +508,10 @@
                         </a>
                         
                         
+                        
+                        <a href="/tags/github" title="github">
+                            github
+                        </a>
                         
                         
                         
@@ -341,6 +552,10 @@
                         <a href="/tags/service-mesh" title="service-mesh">
                             service-mesh
                         </a>
+                        
+                        
+                        
+                        
                         
                         
                         

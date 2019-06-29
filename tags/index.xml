@@ -93,6 +93,24 @@
     </item>
     
     <item>
+      <title>tag1</title>
+      <link>https://www.helloevanzhao.me/tags/tag1/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag2</title>
+      <link>https://www.helloevanzhao.me/tags/tag2/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ubuntu</title>
       <link>https://www.helloevanzhao.me/tags/ubuntu/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
