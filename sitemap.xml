@@ -122,11 +122,6 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/post/2019-06-30-new-vim-tips/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.helloevanzhao.me/tags/istio/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -135,18 +130,6 @@
   <url>
     <loc>https://www.helloevanzhao.me/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/tag1/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/tag2/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -221,14 +204,14 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
+    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
+    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
