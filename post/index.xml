@@ -11,6 +11,33 @@
     
     
     <item>
+      <title>Linux 常用命令</title>
+      <link>https://www.helloevanzhao.me/post/2019-06-30-linux-tips/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-06-30-linux-tips/</guid>
+      <description>环境变量 修改当前用户 vim ~/.bashrc 例：设置java环境变量 #set oracle jdk environment export JAVA8=/usr/lib/jvm/jdk1.8.0_191 export JAVA7=/usr/lib/jvm/jdk1.7.0_80 export JAVA_HOME=${JAVA7} export JRE_HOME=${JAVA_HOME}/jre export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib export PATH=${JAVA_HOME}/bin:$PATH export PATH=/usr/appengine/appengine-java-sdk-1.9.66//bin:$PATH export PATH=/usr/apache-ant-1.9.13//bin:$PATH export PS1=&amp;quot;\[\e[32m\]\w\[\e[m\]\[\e[32m\] &amp;gt;\[\e[m\] &amp;quot; 使环境变量马上生效： source ~/.bashrc 用于所有用户： sudo vim /etc/profile</description>
+    </item>
+    
+    <item>
+      <title>Shell指令速查</title>
+      <link>https://www.helloevanzhao.me/post/2019-06-30-shell-tips/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-06-30-shell-tips/</guid>
+      <description>Shell变量 定义变量时，变量名不加美元符号（$，PHP语言中变量需要），如： your_name=&amp;quot;runoob.com&amp;quot; 注意，变量名和等号之间不能有空格，这可能和你熟悉的所有编程语</description>
+    </item>
+    
+    <item>
+      <title>Vim 常用命令</title>
+      <link>https://www.helloevanzhao.me/post/2019-06-30-new-vim-tips/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-06-30-new-vim-tips/</guid>
+      <description>Vim按键说明 命令模式： * i 切换到输入模式，以输入字符。 * x 删除当前光标所在处的字符。 * : 切换到底线命令模式，以在最底一行输入命令。 移动光标</description>
+    </item>
+    
+    <item>
       <title>How To Build A Personal Blog Site</title>
       <link>https://www.helloevanzhao.me/post/2019-05-09-how-to-build-a-website-like-mine/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>

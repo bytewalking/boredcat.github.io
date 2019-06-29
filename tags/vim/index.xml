@@ -6,10 +6,19 @@
     <description>Recent content in Vim on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Feb 2018 11:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Vim 常用命令</title>
+      <link>https://www.helloevanzhao.me/post/2019-06-30-new-vim-tips/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-06-30-new-vim-tips/</guid>
+      <description>Vim按键说明 命令模式： * i 切换到输入模式，以输入字符。 * x 删除当前光标所在处的字符。 * : 切换到底线命令模式，以在最底一行输入命令。 移动光标</description>
+    </item>
     
     <item>
       <title>Vim Tips</title>

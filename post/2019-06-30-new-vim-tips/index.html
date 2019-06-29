@@ -15,15 +15,15 @@
     
 
     
-    <meta name="title" content="An Example Post" />
-    <meta property="og:title" content="An Example Post" />
-    <meta property="twitter:title" content="An Example Post" />
+    <meta name="title" content="Vim 常用命令" />
+    <meta property="og:title" content="Vim 常用命令" />
+    <meta property="twitter:title" content="Vim 常用命令" />
     
 
     
-    <meta name="description" content="赵鹏辉，程序员, 开源爱好者，生活探险家 | 这里是 赵鹏辉 的博客，与你一起发现更大的世界。">
-    <meta property="og:description" content="赵鹏辉，程序员, 开源爱好者，生活探险家 | 这里是 赵鹏辉 的博客，与你一起发现更大的世界。" />
-    <meta property="twitter:description" content="赵鹏辉，程序员, 开源爱好者，生活探险家 | 这里是 赵鹏辉 的博客，与你一起发现更大的世界。" />
+    <meta name="description" content="主要为vim快捷键">
+    <meta property="og:description" content="主要为vim快捷键" />
+    <meta property="twitter:description" content="主要为vim快捷键" />
     
 
     
@@ -34,7 +34,7 @@
     <meta name="keyword"  content="赵鹏辉, zhaopenghui, zhaopenghui, , 赵鹏辉的网络日志, 赵鹏辉的博客, zhaopenghui Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>An Example Post-Blog</title>
+    <title>Vim 常用命令-Blog</title>
 
     <link rel="canonical" href="/post/2019-06-30-new-vim-tips/">
 
@@ -168,24 +168,24 @@
                 <div class="post-heading">
                     <div class="tags">
                         
-                        <a class="tag" href="/tags/tag1" title="tag1">
-                            tag1
+                        <a class="tag" href="/tags/tips" title="Tips">
+                            Tips
                         </a>
                         
-                        <a class="tag" href="/tags/tag2" title="tag2">
-                            tag2
+                        <a class="tag" href="/tags/vim" title="Vim">
+                            Vim
                         </a>
                         
                     </div>
-                    <h1>An Example Post</h1>
-                    <h2 class="subheading"></h2>
+                    <h1>Vim 常用命令</h1>
+                    <h2 class="subheading">自己整理了一些vim常用的命令</h2>
                     <span class="meta">
 			Posted by 
 			
-			         &#34;&#34;
+			         &#34;EvanZhao&#34;
 			 
 			on 
-			Monday, June 4, 2018
+			Saturday, June 29, 2019
                         
                     </span>
                 </div>
@@ -211,9 +211,186 @@
                 <header>
                     <h2>TOC</h2>
                 </header>
+                <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#vim按键说明">Vim按键说明</a>
+<ul>
+<li><a href="#移动光标的方法">移动光标的方法</a></li>
+<li><a href="#搜索替换">搜索替换</a></li>
+<li><a href="#删除-复制与贴上">删除、复制与贴上</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
                 
                 
-                
+
+<h3 id="vim按键说明">Vim按键说明</h3>
+
+<p>命令模式：
+* i 切换到输入模式，以输入字符。
+* x 删除当前光标所在处的字符。
+* : 切换到底线命令模式，以在最底一行输入命令。</p>
+
+<h4 id="移动光标的方法">移动光标的方法</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">h 或 向左箭头键(←)</td>
+<td align="center">光标向左移动一个字符</td>
+</tr>
+
+<tr>
+<td align="center">j 或 向下箭头键(↓)</td>
+<td align="center">光标向下移动一个字符</td>
+</tr>
+
+<tr>
+<td align="center">k 或 向上箭头键(↑)</td>
+<td align="center">光标向上移动一个字符</td>
+</tr>
+
+<tr>
+<td align="center">l 或 向右箭头键(→)</td>
+<td align="center">光标向右移动一个字符</td>
+</tr>
+
+<tr>
+<td align="center">[Ctrl] + [f]</td>
+<td align="center">屏幕『向下』移动一页，相当于 [Page Down]按键 (常用)</td>
+</tr>
+
+<tr>
+<td align="center">[Ctrl] + [b]</td>
+<td align="center">屏幕『向上』移动一页，相当于 [Page Up] 按键 (常用)</td>
+</tr>
+
+<tr>
+<td align="center">0 或功能键[Home]</td>
+<td align="center">这是数字『 0 』：移动到这一行的最前面字符处 (常用)</td>
+</tr>
+
+<tr>
+<td align="center">n<Enter></td>
+<td align="center">n 为数字。光标向下移动 n 行(常用)</td>
+</tr>
+
+<tr>
+<td align="center">$ 或功能键[End]</td>
+<td align="center">移动到这一行的最后面字符处(常用)</td>
+</tr>
+
+<tr>
+<td align="center">gg</td>
+<td align="center">移动到这个档案的第一行，相当于 1G 啊！ (常用)</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="搜索替换">搜索替换</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">/word</td>
+<td align="center">向光标之下寻找一个名称为 word 的字符串 (常用)</td>
+</tr>
+
+<tr>
+<td align="center">?word</td>
+<td align="center">向光标之上寻找一个字符串名称为 word 的字符串</td>
+</tr>
+
+<tr>
+<td align="center">n</td>
+<td align="center">这个 n 是英文按键。代表重复前一个搜寻的动作</td>
+</tr>
+
+<tr>
+<td align="center">N</td>
+<td align="center">这个 N 是英文按键。与 n 刚好相反，为『反向』进行前一个搜寻动作</td>
+</tr>
+</tbody>
+</table>
+
+<h4 id="删除-复制与贴上">删除、复制与贴上</h4>
+
+<table>
+<thead>
+<tr>
+<th align="center">命令</th>
+<th align="center">解释</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">x, X</td>
+<td align="center">在一行字当中，x 为向后删除一个字符， X 为向前删除一个字符(常用)</td>
+</tr>
+
+<tr>
+<td align="center">nx</td>
+<td align="center">n 为数字，连续向后删除 n 个字符</td>
+</tr>
+
+<tr>
+<td align="center">dd</td>
+<td align="center">删除游标所在的那一整行(常用)</td>
+</tr>
+
+<tr>
+<td align="center">ndd</td>
+<td align="center">n 为数字。删除光标所在的向下 n 行，例如 20dd 则是删除 20 行 (常用)</td>
+</tr>
+
+<tr>
+<td align="center">yy</td>
+<td align="center">复制游标所在的那一行(常用)</td>
+</tr>
+
+<tr>
+<td align="center">p, P</td>
+<td align="center">p 为将已复制的数据在光标下一行贴上，P 则为贴在游标上一行！  (常用)</td>
+</tr>
+
+<tr>
+<td align="center">u</td>
+<td align="center">复原前一个动作。(常用)</td>
+</tr>
+
+<tr>
+<td align="center">[Ctrl]+r</td>
+<td align="center">重做上一个动作。(常用)</td>
+</tr>
+
+<tr>
+<td align="center">.</td>
+<td align="center">重复前一个动作的意思 (常用)</td>
+</tr>
+</tbody>
+</table>
+
 
                 
                 
@@ -261,13 +438,13 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2018/06/04/introducing-the-istio-v1alpha3-routing-api/" data-toggle="tooltip" data-placement="top" title="Istio v1aplha3 routing API介绍(译文）">&larr;
+                        <a href="/post/2019-05-09-how-to-build-a-website-like-mine/" data-toggle="tooltip" data-placement="top" title="How To Build A Personal Blog Site">&larr;
                             Previous Post</a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/2017/11/03/hello-world/" data-toggle="tooltip" data-placement="top" title="Welcome to ZhaoPengHui Blog">Next
+                        <a href="/post/2019-06-30-shell-tips/" data-toggle="tooltip" data-placement="top" title="Shell指令速查">Next
                             Post &rarr;</a>
                     </li>
                     
@@ -355,6 +532,8 @@
                         
                         
                         
+                        
+                        
                         <a href="/tags/microservice" title="microservice">
                             microservice
                         </a>
@@ -381,8 +560,6 @@
                         
                         
                         
-                        
-                        
                         <a href="/tags/think-deeply" title="think-deeply">
                             think-deeply
                         </a>
@@ -396,6 +573,10 @@
                         
                         
                         
+                        
+                        <a href="/tags/vim" title="vim">
+                            vim
+                        </a>
                         
                         
                     </div>
