@@ -6,10 +6,19 @@
     <description>Recent content in Microservice on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 May 2018 18:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/tags/microservice/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>微服务核心知识整理与归纳</title>
+      <link>https://www.helloevanzhao.me/post/2019-07-10-micro-service-core-knowledge-collation-and-induction/</link>
+      <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-07-10-micro-service-core-knowledge-collation-and-induction/</guid>
+      <description>Hello，Microservices 本人初学微服务，此文章是对自己所学的内容进行整理和总结，部分图片和文字来源网络，侵删。 我对相关知识的理</description>
+    </item>
     
     <item>
       <title>微服务安全沉思录之三</title>
