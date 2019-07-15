@@ -6,7 +6,7 @@
     <description>Recent content in Shell on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/tags/shell/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Shell指令速查</title>
       <link>https://www.helloevanzhao.me/post/2019-06-30-shell-tips/</link>
-      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.helloevanzhao.me/post/2019-06-30-shell-tips/</guid>
       <description>Shell变量 定义变量时，变量名不加美元符号（$，PHP语言中变量需要），如： your_name=&amp;quot;runoob.com&amp;quot; 注意，变量名和等号之间不能有空格，这可能和你熟悉的所有编程语</description>
