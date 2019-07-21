@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="Mac OS X配置环境变量" />
+    <meta property="og:title" content="Mac OS X配置环境变量" />
+    <meta property="twitter:title" content="Mac OS X配置环境变量" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="赵鹏辉, zhaopenghui, zhaopenghui, , 赵鹏辉的网络日志, 赵鹏辉的博客, zhaopenghui Blog, 博客, 个人网站, 互联网, Web, 云原生, PaaS, Istio, Kubernetes, 微服务, Microservice">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>Blog</title>
+    <title>Mac OS X配置环境变量-Blog</title>
 
-    <link rel="canonical" href="/top/about/">
+    <link rel="canonical" href="/post/2019-07-21-mac-os-x-config/">
 
     <link rel="stylesheet" href="/css/iDisqus.min.css"/>
 	
@@ -155,14 +155,39 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/home-bg-jeep.jpg')
+    }
+</style>
+<header class="intro-header">
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>EvanZhao </h1>
-                    
-		    <span class="subheading">The journey is the reward</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/tips" title="Tips">
+                            Tips
+                        </a>
+                        
+                        <a class="tag" href="/tags/mac" title="Mac">
+                            Mac
+                        </a>
+                        
+                    </div>
+                    <h1>Mac OS X配置环境变量</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+			Posted by 
+			
+			         &#34;EvanZhao&#34;
+			 
+			on 
+			Sunday, July 21, 2019
+                        
+                    </span>
                 </div>
             </div>
         </div>
@@ -182,25 +207,191 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-         	<p><img src="/img/zhaopenghui.png" alt="" />  <strong><em>Evan Zhao</em></strong> is a software developer.His favorite programming language is Python and Java.But now, what he wants to learn is Golang.</p>
+                
+                <header>
+                    <h2>TOC</h2>
+                </header>
+                <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#mac端环境变量配置">Mac端环境变量配置</a></li>
+</ul></li>
+<li><a href="#使用冒号隔开">使用冒号隔开</a></li>
+<li><a href="#或者">或者</a></li>
+<li><a href="#第一种将路径合并在一起-不方便删除-建议使用第二种-换行挨个设置">第一种将路径合并在一起，不方便删除，建议使用第二种，换行挨个设置</a></li>
+<li><a href="#java">java</a></li>
+<li><a href="#hadoop">hadoop</a></li>
+<li><a href="#spunk">spunk</a></li>
+<li><a href="#setting-path-for-python-3-5">Setting PATH for Python 3.5</a></li>
+<li><a href="#the-original-version-is-saved-in-bash-profile-pysave">The original version is saved in .bash_profile.pysave</a></li>
+<li><a href="#ant">ant</a></li>
+<li><a href="#jboss">JBOSS</a></li>
+<li><a href="#m2-home">M2_HOME</a></li>
+</ul>
+</nav>
+                
+                
 
-<p>Throughout his career, he has built a number of&hellip; oh, wait, his career has just begun, then let&rsquo;s skip this paragraph.</p>
+<h2 id="mac端环境变量配置">Mac端环境变量配置</h2>
 
-<p>He loves open source and has been contributing to a variety of open source projects, including <a href="http://appinventor.mit.edu/">MIT App Inventor</a>(a web for build app), <a href="https://nbgrader.readthedocs.io/">nbgrader</a>(a system for assigning and grading notebooks), <a href="https://jupyterhub.readthedocs.io">jupyterhub</a>(multi-user server for Jupyter notebooks ), etc</p>
+<p>Mac使用bash做为默认的shell</p>
 
-<p>He also has strong interests in various tech stuff such as Artificial Intelligence, Cryptocurrencies, Smart Home.</p>
+<p>MAC OS X环境配置的加载顺序</p>
 
-<p>Evan Zhao holds a BS in Software Engineering from Soochow University in China.</p>
+<pre><code># 系统级别
+/etc/profile
+/etc/paths 
 
-<p>He is happy with his current job, but also willing to take new challenges if the opportunity matches his career path.</p>
+#用户级别
+/.bash_profile 
+/.bash_login 
+/.profile 
 
-<p>While he is not working, he enjoys watching movies, playing video games, reading books, cooking, writing blogs and learning languages.</p>
+/.bashrc
+</code></pre>
 
-<p>Secretly telling you, he is also a ailurophile, but he doesn’t have his own cat(ˇˍˇ)</p>
+<p>前两个是系统级别的环境变量，针对所有用户，后面四个带有<code>~/</code>用户级别的环境变量。</p>
 
-<p>Feel free to connect Evan Zhao Github (<a href="https://github.com/boredcat/">https://github.com/boredcat/</a>) or drop him an email (phzhao7548@gmail.com).</p>
+<ul>
+<li>前两个环境配置在系统启动时候就会加载。</li>
+</ul>
 
-<p>Evan Zhao lives in Shanghai now. If you are also passionate about programming or having a lot of magical ideas and want to discuss with him, you can contact him. If you are willing to share the algorithm with him, he will be much happier.Looking forward to receiving your reply.</p>
+<pre><code class="language-~/.bash_profile```，```~/.bash_login```，```~/.profile```依次加载，如果```~/.bash_profile```不存在，依次加载后面几个文件；如果```~/.bash_profile```文件存在，后面几个文件不会加载">
+```~/.bashrc``` 是bash shell打开时候加载
+
+## 全局环境变量设置
+修改全局环境变量时候参考系统默认的环境变量配置格式。
+修改全局环境变量需要root权限。
+
+* /etc/paths 全局建议修改这个文件
+* /etc/profile 不建议修改这个文件，全局共有配置，用户登录时候都会加载该文件
+* /etc/bashrc 一般在这个文件中添加系统级别的环境变量，全局共有配置，bash shell执行时候都会加载
+
+用户级别环境变量设置
+在```~/.bash_profile```中配置环境。
+
+</code></pre>
+
+<h1 id="使用冒号隔开">使用冒号隔开</h1>
+
+<p>export PATH=$PATH:<PATH 1>:<PATH 2>:<PATH 3>:&mdash;&mdash;:<PATH N></p>
+
+<h1 id="或者">或者</h1>
+
+<p>export PATH=${PATH}:<PATH 1>
+export PATH=${PATH}:<PATH 2></p>
+
+<h1 id="第一种将路径合并在一起-不方便删除-建议使用第二种-换行挨个设置">第一种将路径合并在一起，不方便删除，建议使用第二种，换行挨个设置</h1>
+
+<pre><code>
+</code></pre>
+
+<h1 id="java">java</h1>
+
+<p>export JAVA_HOME = /home/myuser/jdk1.7.0_03
+export PATH = $JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar</p>
+
+<h1 id="hadoop">hadoop</h1>
+
+<p>export HADOOP_HOME=/Users/YourUserName/Documents/Dev/hadoop-2.7.3
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</p>
+
+<h1 id="spunk">spunk</h1>
+
+<p>export SPLUNK_HOME=/Applications/Splunk
+export PATH=$PATH:$SPLUNK_HOME/bin</p>
+
+<h1 id="setting-path-for-python-3-5">Setting PATH for Python 3.5</h1>
+
+<h1 id="the-original-version-is-saved-in-bash-profile-pysave">The original version is saved in .bash_profile.pysave</h1>
+
+<p>PATH=&ldquo;/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}&rdquo;
+export PATH</p>
+
+<p>export CLASSPATH=${CLASSPATH}:/Users/YourUserName/Documents/Lib/hadoop_cli</p>
+
+<h1 id="ant">ant</h1>
+
+<p>export ANT_HOME=/Users/YourUserName/Documents/Dev/apache-ant-1.9.7
+export PATH=$PATH:${ANT_HOME}/bin</p>
+
+<h1 id="jboss">JBOSS</h1>
+
+<p>export JBOSS_HOME=/Users/YourUserName/Documents/Dev/wildfly-10.1.0.Final
+export PATH=$PATH:$JBOSS_HOME/bin</p>
+
+<h1 id="m2-home">M2_HOME</h1>
+
+<p>export M2_HOME=/Users/YourUserName/Documents/Dev/apache-maven-3.3.9
+export PATH=$PATH:$M2_HOME/bin</p>
+
+<pre><code>
+## 重新载入配置文件
+在环境配置完毕后，一般是重新电脑才会生效，如果想要立即生效，执行以下指令
+
+</code></pre>
+
+<p>source &lt;相应文件配置文件&gt;</p>
+
+<p>#示例
+source .bash_profile
+```</p>
+
+
+                
+                
+<div class="entry-shang text-center">
+    
+	    <p> 「如果这篇文章对你有用,请随意打赏」</p>
+	
+	<button class="zs show-zs btn btn-bred">赞赏支持</button>
+</div>
+<div class="zs-modal-bg"></div>
+<div class="zs-modal-box">
+	<div class="zs-modal-head">
+		<button type="button" class="close">×</button>
+		<span class="author"><a href="https://www.helloevanzhao.me/"><img src="/img/favicon.png" />EvanZhao</a></span>
+        
+	        <p class="tip"><i></i><span>如果这篇文章对你有用,请随意打赏</span></p>
+		
+ 
+	</div>
+	<div class="zs-modal-body">
+		<div class="zs-modal-btns">
+			<button class="btn btn-blink" data-num="2">2元</button>
+			<button class="btn btn-blink" data-num="5">5元</button>
+			<button class="btn btn-blink" data-num="10">10元</button>
+			<button class="btn btn-blink" data-num="50">50元</button>
+			<button class="btn btn-blink" data-num="100">100元</button>
+			<button class="btn btn-blink" data-num="1">任意金额</button>
+		</div>
+		<div class="zs-modal-pay">
+			<button class="btn btn-bred" id="pay-text">2元</button>
+			<p>使用<span id="pay-type">微信</span>扫描二维码完成支付</p>
+			<img src="/img/reward/wechat-2.png"  id="pay-image"/>
+		</div>
+	</div>
+	<div class="zs-modal-footer">
+		<label><input type="radio" name="zs-type" value="wechat" class="zs-type" checked="checked"><span ><span class="zs-wechat"><img src="/img/reward/wechat-btn.png"/></span></label>
+		<label><input type="radio" name="zs-type" value="alipay" class="zs-type" class="zs-alipay"><img src="/img/reward/alipay-btn.png"/></span></label>
+	</div>
+</div>
+<script type="text/javascript" src="/js/reward.js"></script>
+
+                
+
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/post/2019-07-15-fair-shuffling-algorithm/" data-toggle="tooltip" data-placement="top" title="公平的洗牌算法">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                </ul>
 
                 
 <div id="disqus-comment"></div>
@@ -249,7 +440,7 @@
                         
                         
                         <a href="/tags/blog" title="blog">
-                        blog
+                            blog
                         </a>
                         
                         
@@ -257,13 +448,13 @@
                         
                         
                         <a href="/tags/docker" title="docker">
-                        docker
+                            docker
                         </a>
                         
                         
                         
                         <a href="/tags/github" title="github">
-                        github
+                            github
                         </a>
                         
                         
@@ -273,7 +464,7 @@
                         
                         
                         <a href="/tags/istio" title="istio">
-                        istio
+                            istio
                         </a>
                         
                         
@@ -281,7 +472,7 @@
                         
                         
                         <a href="/tags/kubernetes" title="kubernetes">
-                        kubernetes
+                            kubernetes
                         </a>
                         
                         
@@ -291,7 +482,7 @@
                         
                         
                         <a href="/tags/microservice" title="microservice">
-                        microservice
+                            microservice
                         </a>
                         
                         
@@ -301,13 +492,13 @@
                         
                         
                         <a href="/tags/security" title="security">
-                        security
+                            security
                         </a>
                         
                         
                         
                         <a href="/tags/service-mesh" title="service-mesh">
-                        service-mesh
+                            service-mesh
                         </a>
                         
                         
@@ -317,13 +508,13 @@
                         
                         
                         <a href="/tags/think-deeply" title="think-deeply">
-                        think-deeply
+                            think-deeply
                         </a>
                         
                         
                         
                         <a href="/tags/tips" title="tips">
-                        tips
+                            tips
                         </a>
                         
                         
@@ -331,7 +522,7 @@
                         
                         
                         <a href="/tags/vim" title="vim">
-                        vim
+                            vim
                         </a>
                         
                         
