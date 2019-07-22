@@ -215,129 +215,117 @@
 <ul>
 <li>
 <ul>
+<li>
+<ul>
 <li><a href="#mac端环境变量配置">Mac端环境变量配置</a></li>
+<li><a href="#全局环境变量设置">全局环境变量设置</a></li>
+<li><a href="#重新载入配置文件">重新载入配置文件</a></li>
 </ul></li>
-<li><a href="#使用冒号隔开">使用冒号隔开</a></li>
-<li><a href="#或者">或者</a></li>
-<li><a href="#第一种将路径合并在一起-不方便删除-建议使用第二种-换行挨个设置">第一种将路径合并在一起，不方便删除，建议使用第二种，换行挨个设置</a></li>
-<li><a href="#java">java</a></li>
-<li><a href="#hadoop">hadoop</a></li>
-<li><a href="#spunk">spunk</a></li>
-<li><a href="#setting-path-for-python-3-5">Setting PATH for Python 3.5</a></li>
-<li><a href="#the-original-version-is-saved-in-bash-profile-pysave">The original version is saved in .bash_profile.pysave</a></li>
-<li><a href="#ant">ant</a></li>
-<li><a href="#jboss">JBOSS</a></li>
-<li><a href="#m2-home">M2_HOME</a></li>
+</ul></li>
 </ul>
 </nav>
                 
                 
 
-<h2 id="mac端环境变量配置">Mac端环境变量配置</h2>
+<h3 id="mac端环境变量配置">Mac端环境变量配置</h3>
 
 <p>Mac使用bash做为默认的shell</p>
 
 <p>MAC OS X环境配置的加载顺序</p>
 
-<pre><code># 系统级别
+<pre><code>### 系统级别
+
 /etc/profile
+
 /etc/paths 
 
-#用户级别
+### 用户级别
+
 /.bash_profile 
+
 /.bash_login 
+
 /.profile 
 
 /.bashrc
 </code></pre>
 
-<p>前两个是系统级别的环境变量，针对所有用户，后面四个带有<code>~/</code>用户级别的环境变量。</p>
+<p>前两个是系统级别的环境变量，针对所有用户，后面四个带有 <code>~/</code> 用户级别的环境变量。</p>
 
 <ul>
 <li>前两个环境配置在系统启动时候就会加载。</li>
 </ul>
 
-<pre><code class="language-~/.bash_profile```，```~/.bash_login```，```~/.profile```依次加载，如果```~/.bash_profile```不存在，依次加载后面几个文件；如果```~/.bash_profile```文件存在，后面几个文件不会加载">
-```~/.bashrc``` 是bash shell打开时候加载
+<p><code>~/.bash_profile</code> ，<code>~/.bash_login</code> ，<code>~/.profile</code> 依次加载，如果 <code>~/.bash_profile</code>不存在，依次加载后面几个文件；如果 <code>~/.bash_profile</code> 文件存在，后面几个文件不会加载</p>
 
-## 全局环境变量设置
-修改全局环境变量时候参考系统默认的环境变量配置格式。
-修改全局环境变量需要root权限。
+<p><code>~/.bashrc</code> 是bash shell打开时候加载</p>
 
-* /etc/paths 全局建议修改这个文件
-* /etc/profile 不建议修改这个文件，全局共有配置，用户登录时候都会加载该文件
-* /etc/bashrc 一般在这个文件中添加系统级别的环境变量，全局共有配置，bash shell执行时候都会加载
+<h3 id="全局环境变量设置">全局环境变量设置</h3>
 
-用户级别环境变量设置
-在```~/.bash_profile```中配置环境。
+<p>修改全局环境变量时候参考系统默认的环境变量配置格式。</p>
 
+<p>修改全局环境变量需要root权限。</p>
+
+<ul>
+<li>/etc/paths 全局建议修改这个文件</li>
+<li>/etc/profile 不建议修改这个文件，全局共有配置，用户登录时候都会加载该文件</li>
+<li>/etc/bashrc 一般在这个文件中添加系统级别的环境变量，全局共有配置，bash shell执行时候都会加载</li>
+</ul>
+
+<p>用户级别环境变量设置
+在<code>~/.bash_profile</code>中配置环境。</p>
+
+<pre><code class="language-python"># 使用冒号隔开
+export PATH=$PATH:&lt;PATH 1&gt;:&lt;PATH 2&gt;:&lt;PATH 3&gt;:------:&lt;PATH N&gt;
+# 或者 
+export PATH=${PATH}:&lt;PATH 1&gt;
+export PATH=${PATH}:&lt;PATH 2&gt;
+
+# 第一种将路径合并在一起，不方便删除，建议使用第二种，换行挨个设置
 </code></pre>
 
-<h1 id="使用冒号隔开">使用冒号隔开</h1>
-
-<p>export PATH=$PATH:<PATH 1>:<PATH 2>:<PATH 3>:&mdash;&mdash;:<PATH N></p>
-
-<h1 id="或者">或者</h1>
-
-<p>export PATH=${PATH}:<PATH 1>
-export PATH=${PATH}:<PATH 2></p>
-
-<h1 id="第一种将路径合并在一起-不方便删除-建议使用第二种-换行挨个设置">第一种将路径合并在一起，不方便删除，建议使用第二种，换行挨个设置</h1>
-
-<pre><code>
-</code></pre>
-
-<h1 id="java">java</h1>
-
-<p>export JAVA_HOME = /home/myuser/jdk1.7.0_03
+<pre><code class="language-python"># java
+export JAVA_HOME = /home/myuser/jdk1.7.0_03
 export PATH = $JAVA_HOME/bin:$PATH
-export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar</p>
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
-<h1 id="hadoop">hadoop</h1>
+# hadoop
+export HADOOP_HOME=/Users/YourUserName/Documents/Dev/hadoop-2.7.3
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 
-<p>export HADOOP_HOME=/Users/YourUserName/Documents/Dev/hadoop-2.7.3
-export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</p>
+# spunk
+export SPLUNK_HOME=/Applications/Splunk
+export PATH=$PATH:$SPLUNK_HOME/bin
 
-<h1 id="spunk">spunk</h1>
+# Setting PATH for Python 3.5
+# The original version is saved in .bash_profile.pysave
+PATH=&quot;/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}&quot;
+export PATH
 
-<p>export SPLUNK_HOME=/Applications/Splunk
-export PATH=$PATH:$SPLUNK_HOME/bin</p>
+export CLASSPATH=${CLASSPATH}:/Users/YourUserName/Documents/Lib/hadoop_cli
 
-<h1 id="setting-path-for-python-3-5">Setting PATH for Python 3.5</h1>
+# ant
+export ANT_HOME=/Users/YourUserName/Documents/Dev/apache-ant-1.9.7
+export PATH=$PATH:${ANT_HOME}/bin
 
-<h1 id="the-original-version-is-saved-in-bash-profile-pysave">The original version is saved in .bash_profile.pysave</h1>
+# JBOSS
+export JBOSS_HOME=/Users/YourUserName/Documents/Dev/wildfly-10.1.0.Final
+export PATH=$PATH:$JBOSS_HOME/bin
 
-<p>PATH=&ldquo;/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}&rdquo;
-export PATH</p>
-
-<p>export CLASSPATH=${CLASSPATH}:/Users/YourUserName/Documents/Lib/hadoop_cli</p>
-
-<h1 id="ant">ant</h1>
-
-<p>export ANT_HOME=/Users/YourUserName/Documents/Dev/apache-ant-1.9.7
-export PATH=$PATH:${ANT_HOME}/bin</p>
-
-<h1 id="jboss">JBOSS</h1>
-
-<p>export JBOSS_HOME=/Users/YourUserName/Documents/Dev/wildfly-10.1.0.Final
-export PATH=$PATH:$JBOSS_HOME/bin</p>
-
-<h1 id="m2-home">M2_HOME</h1>
-
-<p>export M2_HOME=/Users/YourUserName/Documents/Dev/apache-maven-3.3.9
-export PATH=$PATH:$M2_HOME/bin</p>
-
-<pre><code>
-## 重新载入配置文件
-在环境配置完毕后，一般是重新电脑才会生效，如果想要立即生效，执行以下指令
-
+# M2_HOME
+export M2_HOME=/Users/YourUserName/Documents/Dev/apache-maven-3.3.9
+export PATH=$PATH:$M2_HOME/bin
 </code></pre>
 
-<p>source &lt;相应文件配置文件&gt;</p>
+<h3 id="重新载入配置文件">重新载入配置文件</h3>
 
-<p>#示例
+<p>在环境配置完毕后，一般是重新电脑才会生效，如果想要立即生效，执行以下指令</p>
+
+<pre><code class="language-python">source &lt;相应文件配置文件&gt;
+
+#示例
 source .bash_profile
-```</p>
+</code></pre>
 
 
                 

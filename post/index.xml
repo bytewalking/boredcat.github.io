@@ -16,7 +16,7 @@
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.helloevanzhao.me/post/2019-07-21-mac-os-x-config/</guid>
-      <description>Mac端环境变量配置 Mac使用bash做为默认的shell MAC OS X环境配置的加载顺序 # 系统级别 /etc/profile /etc/paths #用户级别 /.bash_profile /.bash_login /.profile /.bashrc 前两个是系统级别的环境变量</description>
+      <description>Mac端环境变量配置 Mac使用bash做为默认的shell MAC OS X环境配置的加载顺序 ### 系统级别 /etc/profile /etc/paths ### 用户级别 /.bash_profile /.bash_login /.profile /.bashrc 前两个是系统级别的环境变量</description>
     </item>
     
     <item>
