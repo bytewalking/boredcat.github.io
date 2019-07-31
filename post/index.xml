@@ -11,6 +11,24 @@
     
     
     <item>
+      <title>Java 8 Iterable.forEach() vs foreach loop</title>
+      <link>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</guid>
+      <description>Java 8 Iterable.forEach() vs foreach loop Which of the following is better practice in Java 8? Java 8: joins.forEach(join -&amp;gt; mIrc.join(mSession, join)); Java 7: for (String join : joins) { mIrc.join(mSession, join); } I have lots of for loops that could be &amp;ldquo;simplified&amp;rdquo; with lambdas, but is there really any advantage of using them? Would it improve their performance and readability? EDIT I&amp;rsquo;ll also extend this question to longer methods.</description>
+    </item>
+    
+    <item>
+      <title>RestFul API 知识总结</title>
+      <link>https://www.helloevanzhao.me/post/2019-07-31-restful-api-essential-knowledge/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-07-31-restful-api-essential-knowledge/</guid>
+      <description>重要概念 REST,即Representational State Transfer的缩写，翻译过来就是&amp;rdquo;表现层状态转化&amp;rdquo;。 Res</description>
+    </item>
+    
+    <item>
       <title>技术例会会议记录</title>
       <link>https://www.helloevanzhao.me/post/2019-07-23-meeting-notes/</link>
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
@@ -146,24 +164,6 @@ choco install hugo -confirm  Use the installation instructions in the Hugo docum
       
       <guid>https://www.helloevanzhao.me/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</guid>
       <description>&lt;p&gt;到目前为止，Istio提供了一个简单的API来进行流量管理，该API包括了四种资源：RouteRule，DestinationPolicy，EgressRule和Ingress（直接使用了Kubernets的Ingress资源）。借助此API，用户可以轻松管理Istio服务网格中的流量。该API允许用户将请求路由到特定版本的服务，为弹性测试注入延迟和失败，添加超时和断路器等等，所有这些功能都不必更改应用程序本身的代码。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Java 8 Iterable.forEach() vs foreach loop</title>
-      <link>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</guid>
-      <description>Java 8 Iterable.forEach() vs foreach loop Which of the following is better practice in Java 8? Java 8: joins.forEach(join -&amp;gt; mIrc.join(mSession, join)); Java 7: for (String join : joins) { mIrc.join(mSession, join); } I have lots of for loops that could be &amp;ldquo;simplified&amp;rdquo; with lambdas, but is there really any advantage of using them? Would it improve their performance and readability? EDIT I&amp;rsquo;ll also extend this question to longer methods.</description>
-    </item>
-    
-    <item>
-      <title>RestFul API 知识总结</title>
-      <link>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</link>
-      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</guid>
-      <description>重要概念 REST,即Representational State Transfer的缩写，翻译过来就是&amp;rdquo;表现层状态转化&amp;rdquo;。 Res</description>
     </item>
     
     <item>

@@ -3,31 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/blog/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <loc>https://www.helloevanzhao.me/tags/api/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/categories/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/post/2019-07-31-restful-api-essential-knowledge/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.helloevanzhao.me/tags/</loc>
-    <lastmod>2019-07-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/categories/tech/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/basic/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/java8/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/%E6%80%A7%E8%83%BD/</loc>
+    <lastmod>2019-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/blog/</loc>
     <lastmod>2019-07-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -199,12 +233,6 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/api/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.helloevanzhao.me/tags/istio/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -213,34 +241,6 @@
   <url>
     <loc>https://www.helloevanzhao.me/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/post/2019-07-31-java-8-foreach-vs-foreach-loop/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/basic/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/java8/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/%E6%80%A7%E8%83%BD/</loc>
-    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
