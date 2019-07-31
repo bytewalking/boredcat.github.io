@@ -149,6 +149,15 @@ choco install hugo -confirm  Use the installation instructions in the Hugo docum
     </item>
     
     <item>
+      <title>RestFul API 知识总结</title>
+      <link>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</link>
+      <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</guid>
+      <description>重要概念 REST,即Representational State Transfer的缩写，翻译过来就是&amp;rdquo;表现层状态转化&amp;rdquo;。 Res</description>
+    </item>
+    
+    <item>
       <title>Istio 0.8 Release发布</title>
       <link>https://www.helloevanzhao.me/2018/06/02/istio08/</link>
       <pubDate>Sat, 02 Jun 2018 00:00:00 +0000</pubDate>

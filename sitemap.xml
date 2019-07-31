@@ -199,6 +199,12 @@
   </url>
   
   <url>
+    <loc>https://www.helloevanzhao.me/tags/api/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.helloevanzhao.me/tags/istio/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -207,6 +213,17 @@
   <url>
     <loc>https://www.helloevanzhao.me/2018/06/04/introducing-the-istio-v1alpha3-routing-api/</loc>
     <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/post/2019-07-31-restful_api_essential_knowledge/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/basic/</loc>
+    <lastmod>2018-06-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
