@@ -13,10 +13,10 @@
     
     <item>
       <title>Guava Cache 用法指南</title>
-      <link>https://www.helloevanzhao.me/post/2019-08-01-guava_cache_guide/</link>
+      <link>https://www.helloevanzhao.me/post/2019-08-01-guava-cache-guide/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/post/2019-08-01-guava_cache_guide/</guid>
+      <guid>https://www.helloevanzhao.me/post/2019-08-01-guava-cache-guide/</guid>
       <description>Guava Cache是在内存中缓存数据，相比较于数据库或redis存储，访问内存中的数据会更加高效。Guava官网介绍，下面的这几种情况可以考虑使用</description>
     </item>
     
