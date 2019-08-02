@@ -518,23 +518,22 @@
 
 <p>LoadingCache是Cache的子接口，相比较于Cache，当从LoadingCache中读取一个指定key的记录时，如果该记录不存在，则LoadingCache可以自动执行加载数据到缓存的操作。LoadingCache接口的定义如下：</p>
 
-<p>public interface LoadingCache<K, V> extends Cache<K, V>, Function<K, V> {</p>
+<pre><code class="language-java">public interface LoadingCache&lt;K, V&gt; extends Cache&lt;K, V&gt;, Function&lt;K, V&gt; {
 
-<pre><code>V get(K key) throws ExecutionException;
+    V get(K key) throws ExecutionException;
 
-V getUnchecked(K key);
+    V getUnchecked(K key);
 
-ImmutableMap&lt;K, V&gt; getAll(Iterable&lt;? extends K&gt; keys) throws ExecutionException;
+    ImmutableMap&lt;K, V&gt; getAll(Iterable&lt;? extends K&gt; keys) throws ExecutionException;
 
-V apply(K key);
+    V apply(K key);
 
-void refresh(K key);
+    void refresh(K key);
 
-@Override
-ConcurrentMap&lt;K, V&gt; asMap();
+    @Override
+    ConcurrentMap&lt;K, V&gt; asMap();
+}
 </code></pre>
-
-<p>}</p>
 
 <p>与构建Cache类型的对象类似，LoadingCache类型的对象也是通过CacheBuilder进行构建，不同的是，在调用CacheBuilder的build方法时，必须传递一个CacheLoader类型的参数，CacheLoader的load方法需要我们提供实现。当调用LoadingCache的get方法时，如果缓存不存在对应key的记录，则CacheLoader中的load方法会被自动调用从外存加载数据，load方法的返回值会作为key对应的value存储到LoadingCache中，并从get方法返回。</p>
 
