@@ -3,19 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/cache/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://www.helloevanzhao.me/categories/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/categories/tech/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/index/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/mysql/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/post/2019-08-02-mysql-explain-interpretation/</loc>
+    <lastmod>2019-08-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.helloevanzhao.me/tags/cache/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -33,18 +62,6 @@
   
   <url>
     <loc>https://www.helloevanzhao.me/tags/java/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/tags/</loc>
-    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.helloevanzhao.me/categories/tech/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -106,13 +123,13 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/tips/</loc>
+    <loc>https://www.helloevanzhao.me/categories/tips/</loc>
     <lastmod>2019-07-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/categories/tips/</loc>
+    <loc>https://www.helloevanzhao.me/tags/tips/</loc>
     <lastmod>2019-07-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -326,14 +343,14 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
+    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
+    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>

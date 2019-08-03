@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>通过expalin可以得到什么？</title>
+      <link>https://www.helloevanzhao.me/post/2019-08-02-mysql-explain-interpretation/</link>
+      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2019-08-02-mysql-explain-interpretation/</guid>
+      <description>通过expalin可以得到 表的读取顺序 表的读取操作的操作类型 哪些索引可以使用 哪些索引被实际使用 表之间的引用 每张表有多少行被优化器查询 如何调用</description>
+    </item>
+    
+    <item>
       <title>Guava Cache 用法指南</title>
       <link>https://www.helloevanzhao.me/post/2019-08-01-guava-cache-guide/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
