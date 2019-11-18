@@ -6,28 +6,10 @@
     <description>Recent content in Tags on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>hoopchina</title>
-      <link>https://www.helloevanzhao.me/tags/hoopchina/</link>
-      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/tags/hoopchina/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>think</title>
-      <link>https://www.helloevanzhao.me/tags/think/</link>
-      <pubDate>Mon, 18 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/tags/think/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>index</title>
@@ -291,7 +273,7 @@
     </item>
     
     <item>
-      <title>service Mesh</title>
+      <title>Service Mesh</title>
       <link>https://www.helloevanzhao.me/tags/service-mesh/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
