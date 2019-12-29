@@ -3,38 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.helloevanzhao.me/post/2019-12-29-2019-summarize/</loc>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.helloevanzhao.me/categories/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/categories/life/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/tags/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/tags/hoopchina/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.helloevanzhao.me/tags/think/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -360,14 +365,14 @@
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
+    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.helloevanzhao.me/2018/04/11/service-mesh-vs-api-gateway/</loc>
+    <loc>https://www.helloevanzhao.me/tags/service-mesh/</loc>
     <lastmod>2018-04-11T09:32:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
