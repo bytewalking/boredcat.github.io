@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>浅谈如何设计一个高并发系统</title>
+      <link>https://www.helloevanzhao.me/post/2020-01-16-high-concurrency-system-design/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/post/2020-01-16-high-concurrency-system-design/</guid>
+      <description>从古至今，长江和黄河流域水患不断，远古时期大禹曾拓宽河道，清除淤沙让流水更加顺畅；都江堰作为史上最成功的的治水案例之一，用引流将岷江之水分流</description>
+    </item>
+    
+    <item>
       <title>2019年度总结</title>
       <link>https://www.helloevanzhao.me/post/2019-12-29-2019-summarize/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>

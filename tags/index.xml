@@ -6,10 +6,28 @@
     <description>Recent content in Tags on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.helloevanzhao.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Redis</title>
+      <link>https://www.helloevanzhao.me/tags/redis/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://www.helloevanzhao.me/tags/mysql/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.helloevanzhao.me/tags/mysql/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hoopchina</title>
@@ -35,15 +53,6 @@
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://www.helloevanzhao.me/tags/index/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mysql</title>
-      <link>https://www.helloevanzhao.me/tags/mysql/</link>
-      <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/tags/mysql/</guid>
       <description></description>
     </item>
     
@@ -291,7 +300,7 @@
     </item>
     
     <item>
-      <title>service Mesh</title>
+      <title>Service Mesh</title>
       <link>https://www.helloevanzhao.me/tags/service-mesh/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
