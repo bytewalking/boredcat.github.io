@@ -2,336 +2,336 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on EvanZhao</title>
-    <link>https://www.helloevanzhao.me/tags/</link>
+    <link>https://blog.kafkascat.com/tags/</link>
     <description>Recent content in Tags on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.helloevanzhao.me/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kafkascat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Python</title>
-      <link>https://www.helloevanzhao.me/tags/python/</link>
+      <title>docker</title>
+      <link>https://blog.kafkascat.com/tags/docker/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/python/</guid>
+      <guid>https://blog.kafkascat.com/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://www.helloevanzhao.me/tags/docker/</link>
+      <title>python</title>
+      <link>https://blog.kafkascat.com/tags/python/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/docker/</guid>
+      <guid>https://blog.kafkascat.com/tags/python/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tensorflow</title>
-      <link>https://www.helloevanzhao.me/tags/tensorflow/</link>
+      <link>https://blog.kafkascat.com/tags/tensorflow/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/tensorflow/</guid>
+      <guid>https://blog.kafkascat.com/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://blog.kafkascat.com/tags/mysql/</link>
+      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kafkascat.com/tags/mysql/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Redis</title>
-      <link>https://www.helloevanzhao.me/tags/redis/</link>
+      <link>https://blog.kafkascat.com/tags/redis/</link>
       <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/redis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>mysql</title>
-      <link>https://www.helloevanzhao.me/tags/mysql/</link>
-      <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.helloevanzhao.me/tags/mysql/</guid>
+      <guid>https://blog.kafkascat.com/tags/redis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hoopchina</title>
-      <link>https://www.helloevanzhao.me/tags/hoopchina/</link>
+      <link>https://blog.kafkascat.com/tags/hoopchina/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/hoopchina/</guid>
+      <guid>https://blog.kafkascat.com/tags/hoopchina/</guid>
       <description></description>
     </item>
     
     <item>
       <title>think</title>
-      <link>https://www.helloevanzhao.me/tags/think/</link>
+      <link>https://blog.kafkascat.com/tags/think/</link>
       <pubDate>Sun, 29 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/think/</guid>
+      <guid>https://blog.kafkascat.com/tags/think/</guid>
       <description></description>
     </item>
     
     <item>
       <title>index</title>
-      <link>https://www.helloevanzhao.me/tags/index/</link>
+      <link>https://blog.kafkascat.com/tags/index/</link>
       <pubDate>Sat, 03 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/index/</guid>
+      <guid>https://blog.kafkascat.com/tags/index/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cache</title>
-      <link>https://www.helloevanzhao.me/tags/cache/</link>
+      <link>https://blog.kafkascat.com/tags/cache/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/cache/</guid>
+      <guid>https://blog.kafkascat.com/tags/cache/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guava</title>
-      <link>https://www.helloevanzhao.me/tags/guava/</link>
+      <link>https://blog.kafkascat.com/tags/guava/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/guava/</guid>
+      <guid>https://blog.kafkascat.com/tags/guava/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JAVA</title>
-      <link>https://www.helloevanzhao.me/tags/java/</link>
+      <link>https://blog.kafkascat.com/tags/java/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/java/</guid>
+      <guid>https://blog.kafkascat.com/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>API</title>
-      <link>https://www.helloevanzhao.me/tags/api/</link>
+      <link>https://blog.kafkascat.com/tags/api/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/api/</guid>
+      <guid>https://blog.kafkascat.com/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
       <title>basic</title>
-      <link>https://www.helloevanzhao.me/tags/basic/</link>
+      <link>https://blog.kafkascat.com/tags/basic/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/basic/</guid>
+      <guid>https://blog.kafkascat.com/tags/basic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>java8</title>
-      <link>https://www.helloevanzhao.me/tags/java8/</link>
+      <link>https://blog.kafkascat.com/tags/java8/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/java8/</guid>
+      <guid>https://blog.kafkascat.com/tags/java8/</guid>
       <description></description>
     </item>
     
     <item>
       <title>性能</title>
-      <link>https://www.helloevanzhao.me/tags/%E6%80%A7%E8%83%BD/</link>
+      <link>https://blog.kafkascat.com/tags/%E6%80%A7%E8%83%BD/</link>
       <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/%E6%80%A7%E8%83%BD/</guid>
+      <guid>https://blog.kafkascat.com/tags/%E6%80%A7%E8%83%BD/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://www.helloevanzhao.me/tags/blog/</link>
+      <link>https://blog.kafkascat.com/tags/blog/</link>
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/blog/</guid>
+      <guid>https://blog.kafkascat.com/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mac</title>
-      <link>https://www.helloevanzhao.me/tags/mac/</link>
+      <link>https://blog.kafkascat.com/tags/mac/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/mac/</guid>
+      <guid>https://blog.kafkascat.com/tags/mac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tips</title>
-      <link>https://www.helloevanzhao.me/tags/tips/</link>
+      <link>https://blog.kafkascat.com/tags/tips/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/tips/</guid>
+      <guid>https://blog.kafkascat.com/tags/tips/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithm</title>
-      <link>https://www.helloevanzhao.me/tags/algorithm/</link>
+      <link>https://blog.kafkascat.com/tags/algorithm/</link>
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/algorithm/</guid>
+      <guid>https://blog.kafkascat.com/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Microservice</title>
-      <link>https://www.helloevanzhao.me/tags/microservice/</link>
+      <link>https://blog.kafkascat.com/tags/microservice/</link>
       <pubDate>Wed, 10 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/microservice/</guid>
+      <guid>https://blog.kafkascat.com/tags/microservice/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GitHub</title>
-      <link>https://www.helloevanzhao.me/tags/github/</link>
+      <link>https://blog.kafkascat.com/tags/github/</link>
       <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/github/</guid>
+      <guid>https://blog.kafkascat.com/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Django</title>
-      <link>https://www.helloevanzhao.me/tags/django/</link>
+      <link>https://blog.kafkascat.com/tags/django/</link>
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/django/</guid>
+      <guid>https://blog.kafkascat.com/tags/django/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GWT</title>
-      <link>https://www.helloevanzhao.me/tags/gwt/</link>
+      <link>https://blog.kafkascat.com/tags/gwt/</link>
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/gwt/</guid>
+      <guid>https://blog.kafkascat.com/tags/gwt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SSO</title>
-      <link>https://www.helloevanzhao.me/tags/sso/</link>
+      <link>https://blog.kafkascat.com/tags/sso/</link>
       <pubDate>Wed, 08 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/sso/</guid>
+      <guid>https://blog.kafkascat.com/tags/sso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>think-deeply</title>
-      <link>https://www.helloevanzhao.me/tags/think-deeply/</link>
+      <link>https://blog.kafkascat.com/tags/think-deeply/</link>
       <pubDate>Mon, 06 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/think-deeply/</guid>
+      <guid>https://blog.kafkascat.com/tags/think-deeply/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://www.helloevanzhao.me/tags/linux/</link>
+      <link>https://blog.kafkascat.com/tags/linux/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/linux/</guid>
+      <guid>https://blog.kafkascat.com/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shell</title>
-      <link>https://www.helloevanzhao.me/tags/shell/</link>
+      <link>https://blog.kafkascat.com/tags/shell/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/shell/</guid>
+      <guid>https://blog.kafkascat.com/tags/shell/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vim</title>
-      <link>https://www.helloevanzhao.me/tags/vim/</link>
+      <link>https://blog.kafkascat.com/tags/vim/</link>
       <pubDate>Mon, 29 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/vim/</guid>
+      <guid>https://blog.kafkascat.com/tags/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Istio</title>
-      <link>https://www.helloevanzhao.me/tags/istio/</link>
+      <link>https://blog.kafkascat.com/tags/istio/</link>
       <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/istio/</guid>
+      <guid>https://blog.kafkascat.com/tags/istio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://www.helloevanzhao.me/tags/ubuntu/</link>
+      <link>https://blog.kafkascat.com/tags/ubuntu/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/ubuntu/</guid>
+      <guid>https://blog.kafkascat.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>https://www.helloevanzhao.me/tags/security/</link>
+      <link>https://blog.kafkascat.com/tags/security/</link>
       <pubDate>Wed, 23 May 2018 18:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/security/</guid>
+      <guid>https://blog.kafkascat.com/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://www.helloevanzhao.me/tags/kubernetes/</link>
+      <link>https://blog.kafkascat.com/tags/kubernetes/</link>
       <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/kubernetes/</guid>
+      <guid>https://blog.kafkascat.com/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Helm</title>
-      <link>https://www.helloevanzhao.me/tags/helm/</link>
+      <link>https://blog.kafkascat.com/tags/helm/</link>
       <pubDate>Mon, 16 Apr 2018 15:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/helm/</guid>
+      <guid>https://blog.kafkascat.com/tags/helm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>API Gateway</title>
-      <link>https://www.helloevanzhao.me/tags/api-gateway/</link>
+      <link>https://blog.kafkascat.com/tags/api-gateway/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/api-gateway/</guid>
+      <guid>https://blog.kafkascat.com/tags/api-gateway/</guid>
       <description></description>
     </item>
     
     <item>
       <title>service Mesh</title>
-      <link>https://www.helloevanzhao.me/tags/service-mesh/</link>
+      <link>https://blog.kafkascat.com/tags/service-mesh/</link>
       <pubDate>Wed, 11 Apr 2018 09:32:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/service-mesh/</guid>
+      <guid>https://blog.kafkascat.com/tags/service-mesh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nginmesh</title>
-      <link>https://www.helloevanzhao.me/tags/nginmesh/</link>
+      <link>https://blog.kafkascat.com/tags/nginmesh/</link>
       <pubDate>Tue, 02 Jan 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/tags/nginmesh/</guid>
+      <guid>https://blog.kafkascat.com/tags/nginmesh/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on EvanZhao</title>
-    <link>https://www.helloevanzhao.me/tags/mac/</link>
+    <link>https://blog.kafkascat.com/tags/mac/</link>
     <description>Recent content in Mac on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.helloevanzhao.me/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.kafkascat.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac OS X配置环境变量</title>
-      <link>https://www.helloevanzhao.me/post/2019-07-21-mac-os-x-config/</link>
+      <link>https://blog.kafkascat.com/post/2019-07-21-mac-os-x-config/</link>
       <pubDate>Sun, 21 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.helloevanzhao.me/post/2019-07-21-mac-os-x-config/</guid>
+      <guid>https://blog.kafkascat.com/post/2019-07-21-mac-os-x-config/</guid>
       <description>Mac端环境变量配置 Mac使用bash做为默认的shell MAC OS X环境配置的加载顺序 ### 系统级别 /etc/profile /etc/paths ### 用户级别 /.bash_profile /.bash_login /.profile /.bashrc 前两个是系统级别的环境变量</description>
     </item>
     
