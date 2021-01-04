@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on EvanZhao</title>
+    <title>mac on EvanZhao</title>
     <link>https://blog.kafkascat.com/tags/mac/</link>
-    <description>Recent content in Mac on EvanZhao</description>
+    <description>Recent content in mac on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.kafkascat.com/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>macOs Big Sur 根目录修改文件方法</title>
+      <link>https://blog.kafkascat.com/post/2021-01-03-mac-big-sur-root-modification/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kafkascat.com/post/2021-01-03-mac-big-sur-root-modification/</guid>
+      <description>step1: 关闭系统保护SIP 开机按住Commond+R，进入系统Recovery模式，在terminal中输入： csrutil authenticated-root disable； csrutil disable 如果关闭au</description>
+    </item>
     
     <item>
       <title>Mac OS X配置环境变量</title>

@@ -4,26 +4,37 @@
   
   <url>
     <loc>https://blog.kafkascat.com/categories/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.kafkascat.com/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.kafkascat.com/tags/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.kafkascat.com/categories/tech/</loc>
-    <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kafkascat.com/tags/mac/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.kafkascat.com/post/2021-01-03-mac-big-sur-root-modification/</loc>
+    <lastmod>2021-01-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -171,12 +182,6 @@
   <url>
     <loc>https://blog.kafkascat.com/post/2019-07-23-meeting-notes/</loc>
     <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.kafkascat.com/tags/mac/</loc>
-    <lastmod>2019-07-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -6,10 +6,19 @@
     <description>Recent content in Tech on EvanZhao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.kafkascat.com/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>macOs Big Sur 根目录修改文件方法</title>
+      <link>https://blog.kafkascat.com/post/2021-01-03-mac-big-sur-root-modification/</link>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.kafkascat.com/post/2021-01-03-mac-big-sur-root-modification/</guid>
+      <description>step1: 关闭系统保护SIP 开机按住Commond+R，进入系统Recovery模式，在terminal中输入： csrutil authenticated-root disable； csrutil disable 如果关闭au</description>
+    </item>
     
     <item>
       <title>基于Docker容器的算法模型部署</title>
